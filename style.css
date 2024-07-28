@@ -79,6 +79,105 @@ body{
     text-align: center;
     
 }
+#About-svc{
+    
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:70px;
+    line-height: 40px;
+    border: none;
+}
+#About-svc h1{
+    font-size:35px;
+
+}
+.About{
+    height:500px;
+    width:50%;
+    background-color: yellow;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: white;
+    margin-left: 60px;
+
+
+    
+}
+.About a{
+    text-decoration: none;
+    color:black;
+}
+
+.Services{
+    height:500px;
+    width:50%;
+    background-color: white;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-left:50px;
+    text-align: center;
+    margin-right: 60px;
+}
+
+.svc-box{
+    height: 180px;
+    width:300px;
+
+}
+#svc-1{
+    background-color: white;
+    background-image: url("/Images/travel-suggestion.jpg");
+    background-size: cover ;
+}
+#svc-2{
+    background-color: rgb(73, 115, 193);
+    background-image: url("/Images/travel-planning.jpg");
+    background-size: cover ;
+}
+#svc-3{
+    background-color: rgb(245, 156, 22);
+    background-image: url("/Images/expert-guide.jpg");
+    background-size: cover ;
+}
+#svc-4{
+    background-color: rgb(194, 32, 94);
+    background-image: url("/Images/travel-safety2.jpg");
+    background-size: cover ;
+}
+.Services table{
+    text-align:center;
+}
+#svc-table{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-top:10px;
+
+}
+table td{
+    font-size:large;
+
+}
+table td div:hover{
+    border:2px solid rgb(85, 82, 82);
+    height: 185px;
+    width:305px;
+
+}
+
+/*
+.Service-box{
+    height:200px;
+    width:300px;
+    /*background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left:150px;
+
+}*/
 #Adventure{
     height:450px;
     width:90%;
