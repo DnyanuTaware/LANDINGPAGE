@@ -186,6 +186,7 @@ table td div:hover{
     background-color: white;
 
 }
+
 #Adventure-outer{
     display:flex;
     justify-content:center;
@@ -225,6 +226,11 @@ table td div:hover{
     /*Margin:50px;
     margin-left:75px;*/
 }
+/*
+.adv-circle:hover{
+    height:200px;
+    width:200px;
+}*/
 #adv1{
     background-image: url("/Images/Bungee-Jumping.jpg");
     background-size: cover;
